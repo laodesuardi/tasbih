@@ -22,7 +22,7 @@ addBtn.addEventListener("click", function () {
   addBtn.innerHTML = count;
   if (count % 100 === 0) {
     navigator.vibrate([200, 100, 200]);
-    var sound = new Audio("sound.mp3");
+    var sound = new Audio("public/audio/sound.mp3");
     sound.play();
   }
 });
